@@ -27,22 +27,54 @@ In this task, different operations with **arrays in PHP** were practiced, includ
 
 Clone the repository:
 
-```bash id="y7c9j2"
+```bash
 git clone https://github.com/M3lgone/task-s1-03.git
 ```
 
-Run the files using a local server (XAMPP, MAMP, etc.) or directly in your PHP environment.
+---
+
+## ▶️ How to Run
+
+You can run each level independently using PHP's built-in server.
+
+### Example:
+
+```bash
+php -S localhost:8000 -t level-1
+```
+
+Then open in your browser:
+
+```
+http://localhost:8000
+```
+
+👉 Replace `level-1` with `level-2` or `level-3` depending on what you want to test.
 
 ---
 
 ## 📁 Project Structure
 
-```id="l2xv8q"
-├── level-1/  
-├── level-2/  
-├── level-3/  
-├── index.php
-├── README.md  
+```
+├── level-1/
+│   ├── index.php
+│   ├── Exercise-1.php
+│   ├── Exercise-2.php
+│   ├── Exercise-3.php
+|   └── Exercise-4.php
+|
+├── level-2/
+│   ├── index.php
+│   ├── Exercise-1.php
+│   └── Exercise-2.php
+│
+├── level-3/
+│   └── index.php
+│
+├── test/
+│   └── index.php
+│
+└── README.md
 ```
 
 ---
@@ -73,11 +105,22 @@ Advanced array manipulation using built-in PHP functions
 
 ### Level 2
 
-* [ ] 1. Guest list operations (intersection, merge, differences)
-* [ ] 2. Student grades system with averages
+* [x] 1. Guest list operations (intersection, merge, differences)
+* [x] 2. Student grades system with averages
 
 ### Level 3
 
 * [ ] 1. Cube values using `array_map()`
 * [ ] 2. Filter even-length strings using `array_filter()`
 * [ ] 3. Sum of prime numbers using `array_reduce()`
+
+---
+
+## 🧪 Notes
+
+* Each level works as an independent mini-project.
+* `index.php` acts as the entry point for each level.
+* A `test/` folder can be used as a sandbox for experimentation without affecting the main exercises.
+
+---
+
