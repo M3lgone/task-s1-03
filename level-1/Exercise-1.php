@@ -10,4 +10,4 @@ foreach ($list as $number) {
     echo $number . ", ";
 }
 
-echo "<br>" . "-------------" . "<br>" . "<br>";
+echo "<hr>";

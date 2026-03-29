@@ -17,4 +17,4 @@ echo "Result index count after normalize: " . "<br>" . count($elements) . "<br>"
 print_r($elements) . "<br>";
 
 
-echo "<br>" . "-------------" . "<br>" . "<br>";
+echo "<hr>";

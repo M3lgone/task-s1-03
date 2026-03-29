@@ -26,4 +26,4 @@ echo "Output 4: " . implode(", ", $result4) . "<br><br>";
 
 
 
-echo "<br>" . "-------------" . "<br>" . "<br>";
+echo "<hr>";

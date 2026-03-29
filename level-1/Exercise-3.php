@@ -4,21 +4,19 @@ declare(strict_types=1);
 
 //Exercise 3
 
-$lenguages = ["php", "html", "hp"];
+$languages = ["php", "html", "hp"];
 
-function checkWords($lenguages, string $letter)
+function checkWords(array $lenguages, string $letter): bool
 {
-
     foreach ($lenguages as $word) {
-
-        if (!str_contains($word, $letter)) {
+        if (stripos($word, $letter) === false) {
             return false;
         }
     }
     return true;
 }
 
-echo "Lenguages contains h?" . "<br>";
-var_dump(checkWords($lenguages, "h"));
+echo "Languages contains h?" . "<br>";
+var_dump(checkWords($languages, "h"));
 
-echo "<br>" . "-------------" . "<br>" . "<br>";
+echo "<hr>";

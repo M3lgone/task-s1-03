@@ -16,4 +16,4 @@ echo $personal["age"] . "<br>";
 echo $personal["mail"] . "<br>";
 echo $personal["food"] . "<br>";
 
-echo "<br>" . "-------------" . "<br>" . "<br>";
+echo "<hr>";
